@@ -10,11 +10,17 @@ Please follow these instructions to set-up your Github organization and repo
 3. Select the free tier, then input a unique name for your organization (e.g. mikes-org)
 4. Input your personal email, select "My personal account", and click "Next"
 5. Add all your teammates to this organization by searching for their Github usernames
- - Please also add your mentor and your instructor. Once your org is set up, all team members should be made owners. 
- - **Note:** you can add people after this step, so feel free to continue on if you're missing some usernames.
+ - Please also add your mentor and your instructor. Once your org is set up, all team members should be made owners 
+ - **Note:** you can add people after this step, so feel free to continue on if you're missing some usernames
 6. Click "Complete set-up"
 
 There's no need to fill out this next page ("Welcome to Github"). You can scroll to the bottom and click "Submit".
+
+## Making a Member an Owner
+1. On the main org page, click "People" at the top
+ - In order to change a user's role, they need to first accept the invitation to the org
+2. Once they accept, a settings icon will appear next to their name. Click on that.
+3. Click "change role", and then select "owner"
 
 ## Creating and Initializing your repo
 
