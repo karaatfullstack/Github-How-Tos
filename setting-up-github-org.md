@@ -11,7 +11,7 @@ Please follow these instructions to set-up your Github organization and repo
 4. Input your personal email, select "My personal account", and click "Next"
 5. Add all your teammates to this organization by searching for their Github usernames
  - Please also add your mentor and your instructor. Once your org is set up, all team members should be made owners. 
-  **Note** you can add people after this step, so feel free to continue on if you're missing some usernames.
+ - **Note:** you can add people after this step, so feel free to continue on if you're missing some usernames.
 6. Click "Complete set-up"
 
 There's no need to fill out this next page ("Welcome to Github"). You can scroll to the bottom and click "Submit".
