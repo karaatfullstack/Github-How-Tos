@@ -7,17 +7,18 @@ Please follow these instructions to set-up your Github organization and repo
 
 1. Go to [github](https://github.com) and click the "+" button in the upper righthand corner
 2. Select "New organization" from the dropdown
-3. Select the free tier, then input a unique name for your organization (e.g. graceshopper-team-awesome)
+3. Select the free tier, then input a unique name for your organization (e.g. mikes-org)
 4. Input your personal email, select "My personal account", and click "Next"
-5. Add all your teammates to this organization by searching for their Github usernames. Please also add your mentor and your instructor. Members should be made owners. 
-  *Note* you can add people after this step, so feel free to continue on if you're missing some usernames.
+5. Add all your teammates to this organization by searching for their Github usernames
+ - Please also add your mentor and your instructor. Once your org is set up, all team members should be made owners. 
+  **Note** you can add people after this step, so feel free to continue on if you're missing some usernames.
 6. Click "Complete set-up"
 
 There's no need to fill out this next page ("Welcome to Github"). You can scroll to the bottom and click "Submit".
 
 ## Creating and Initializing your repo
 
-1. Go to your organizations homepage (e.g. https://github.com/graceshopper-team-awesome)
+1. Go to your organizations homepage (e.g. https://github.com/mikes-org)
 2. Select the green button "Create a new repository"
 3. Enter the name of your repository (e.g. graceshopper-project)
 4. Select "Public" for the visibility
