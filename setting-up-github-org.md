@@ -5,15 +5,15 @@ Please follow these instructions to set-up your Github organization and repo
 
 ## Creating a Github Organization
 
-1. Go to [github](https://github.com)
-2. Click the "+" button in the upper righthand corner
-3. Select "New organization" from the dropdown
-4. Select the free tier
-5. Input a name for your organization (e.g. graceshopper-team-awesome)
-6. Input your personal email, select "My personal account", and click "Next"
-7. Add all your teammates to this organization by searching for their Github usernames. Please also add your fellow and your instructor. Members should be made owners. *Note* you can add people after this step, so feel free to continue on if you're missing some usernames.
-8. Click "Complete set-up"
-9. No need to fill out this next page ("Welcome to Github"). You can scroll to the bottom and click "Submit".
+1. Go to [github](https://github.com) and click the "+" button in the upper righthand corner
+2. Select "New organization" from the dropdown
+3. Select the free tier, then input a unique name for your organization (e.g. graceshopper-team-awesome)
+4. Input your personal email, select "My personal account", and click "Next"
+5. Add all your teammates to this organization by searching for their Github usernames. Please also add your mentor and your instructor. Members should be made owners. 
+  *Note* you can add people after this step, so feel free to continue on if you're missing some usernames.
+6. Click "Complete set-up"
+
+There's no need to fill out this next page ("Welcome to Github"). You can scroll to the bottom and click "Submit".
 
 ## Creating and Initializing your repo
 
