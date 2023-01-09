@@ -33,7 +33,7 @@ There's no need to fill out this next page ("Welcome to Github"). You can scroll
 7. `cd` into your new repo's folder
 8. Follow the instructions from the [Boilerplate repo](https://github.com/FullstackAcademy/fs-app-template-v2) where you will be instructed to run these commands:
   ```
-  git remote add boilermaker https://github.com/FullstackAcademy/fs-app-template.git
+  git remote add boilermaker git@github.com:FullstackAcademy/fs-app-template-v2.git
   git fetch boilermaker
   git merge boilermaker/main
   git branch -m master main
