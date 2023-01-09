@@ -31,7 +31,7 @@ There's no need to fill out this next page ("Welcome to Github"). You can scroll
 5. Select "Create Repository" (create a blank repo, do not check any boxes that add default files).
 6. Copy the URL of your repo and clone it to your local machine: `git clone https://github.com/YOUR-PROJECT-URL.git`
 7. `cd` into your new repo's folder
-8. Follow the instructions from the [Boilerplate repo](https://github.com/fullstackacademy/fs-app-template) where you will be instructed to run these commands:
+8. Follow the instructions from the [Boilerplate repo](https://github.com/FullstackAcademy/fs-app-template-v2) where you will be instructed to run these commands:
   ```
   git remote add boilermaker https://github.com/FullstackAcademy/fs-app-template.git
   git fetch boilermaker
