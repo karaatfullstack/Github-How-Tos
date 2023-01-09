@@ -47,5 +47,5 @@ There's no need to fill out this next page ("Welcome to Github"). You can scroll
 2. On the sidebar, select "Branches"
 3. Click "Add rule"
 4. Put `main` in the text field for "Branch name pattern"
-5. Select two checkboxes: "Require pull request reviews before merging" and "Include administrators".
+5. Select "Require pull request reviews before merging" 
 6. Finish by selecting "Create"
