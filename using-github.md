@@ -27,27 +27,26 @@ Step 6: Finally, push my-feature-branch again
 3. Run ‘git branch -a’ to make sure main is gone
 4. Run ‘git checkout origin/main’ - this pulls the latest version of the remote main repo, without any commits you made locally
 
+You now have a clean main branch, and all your changes are safe on the new branch you created.
+
 ## Feature Branches
 
 High level overview: pull latest main, make a branch, commit changes, push to GitHub, make a PR, get it approved, merge it to main. Rinse and repeat.
 
-1. Make issue corresponding to feature
-2. `git checkout main`
-3. `git pull` to get main up to date
-4. `git checkout -b YOUR-NEW-BRANCH-NAME` to switch to a new branch
+1. Make issue corresponding to feature in your project tracking system
+2. Run `git checkout main`  // Makes sure you're on the "main" branch
+3. `git pull`  // Gets main branch up to date
+4. `git checkout -b YOUR-NEW-BRANCH-NAME`  // Creates and switches you to a new branch
 5. Make commits for a given feature.
   - Use semantic commit messages: `type(scope): message` e.g. `feat(client): switch to React-Redux`
-  - Keep commits related to that feature branch. If you need to make other commits, **go back to main**, make a new branch, add those separate commits etc.
+  - Keep commits related to that feature branch. If you need to make unrelated commits, **go back to main**, make a new branch, add those separate commits etc.
 6. When you are done, `git push -u origin YOUR-NEW-BRANCH-NAME`
-7. Navigate to GitHub
-8. Select "open pull request"
-9. Refer to any issues the PR will close, e.g. `Closes #32, closes #46`. You need to use "closes" for each issue separately.
-10. Request a review
-11. Address review comments by pushing more commits
-12. When all checks pass, merge to `main`
-13. On your local machine, `git checkout main`
-14. `git pull`
-15. Start the cycle again
+7. Navigate to GitHub and select "open pull request"
+8. Refer to any issues the PR will close, e.g. `Closes #32, closes #46`. Use "closes" for each issue separately.
+9. Request a review and address review comments by pushing up more commits from your local branch
+10. When all checks pass, merge to `main`
+
+Now that the remote main branch was updated with your changes, run `git checkout main`on your computer to switch to your local main branch. You can then `git pull` to bring in those changes.
 
 ## Merge Conflicts
 
