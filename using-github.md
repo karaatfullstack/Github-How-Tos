@@ -1,5 +1,32 @@
 # GitHub Workflow
 
+## How to push your changes to the remote repo
+
+*Scenario: You are on your branch named ‘my-feature-branch’ and want to push up your changes.*
+
+Step 1: Git add and commit on my-feature-branch
+
+Step 2: git checkout main → switches you to the main branch
+
+Step 3: git pull → pulls from remote main branch to local main branch
+
+Step 4: Switch to my-feature-branch and then merge main into my-feature-branch
+
+Step 5: This is where you resolve merge conflicts between main and your feature
+
+Step 5b: If there are changes to commit, add and commit. 
+
+Step 6: Finally, push my-feature-branch again
+
+**We should never be commiting on main! All we ever do on main is pull in remote changes.**
+
+## What to do if you accidentally committed on your "main" branch
+
+1. Create a new branch from main (to save your existing changes)
+2. Delete your main branch by running “git branch --delete main”
+3. Run ‘git branch -a’ to make sure main is gone
+4. Run ‘git checkout origin/main’ - this pulls the latest version of the remote main repo, without any commits you made locally
+
 ## Feature Branches
 
 High level overview: pull latest main, make a branch, commit changes, push to GitHub, make a PR, get it approved, merge it to main. Rinse and repeat.
