@@ -6,17 +6,17 @@
 
 1. Git add and commit on my-feature-branch
 
-2. git checkout main → switches you to the main branch
+2. Use  `git checkout main` this switches you over to the main branch
 
-3. git pull → pulls from remote main branch to local main branch
+3. Once on main, use `git pull`, which pulls from remote main branch to your local main branch
 
-4. Switch to my-feature-branch and then merge main into my-feature-branch
+4. Switch back to my-feature-branch with `git checkout my-feature-branch`
+   - Then, merge main into the feature branch using  `git merge main`
 
 5. This is where you resolve merge conflicts between main and your feature
+  - If there are changes to commit after fixing conflicts, add and commit. 
 
-  - If there are changes to commit, add and commit. 
-
-6. Finally, push my-feature-branch again
+6. Finally, you can push my-feature-branch 
 
 **We should never be commiting on main! All we ever do on main is pull in remote changes.**
 
