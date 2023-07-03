@@ -14,7 +14,7 @@
    - Then, merge main into the feature branch using  `git merge main`
 
 5. This is where you resolve merge conflicts between main and your feature
-  - If there are changes to commit after fixing conflicts, add and commit. 
+   - If there are changes to commit after fixing conflicts, add and commit. 
 
 6. Finally, you can push my-feature-branch 
 
